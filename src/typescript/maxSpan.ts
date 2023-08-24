@@ -21,3 +21,5 @@ const maxSpanMain = (arr: number[]): number => {
 };
 
 console.log(maxSpanMain(testArr));
+
+export default maxSpanMain;

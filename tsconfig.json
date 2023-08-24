@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "ES6",
+    "module": "CommonJS",
     "lib": ["es6"],
     "allowJs": false,
     "outDir": "src/javascript",
@@ -10,5 +10,7 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src/typescript/**/*.ts"],
+  "exclude": []
 }
