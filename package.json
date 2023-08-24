@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "compile": "npx tsc",
-    "maxSpan": "npm run compile && node ./src/javascript/maxSpan.js"
+    "maxSpan": "npm run compile && node ./src/javascript/maxSpan.js",
+    "fix34": "npm run compile && node ./src/javascript/fix34.js"
   },
   "keywords": [],
   "author": "",

@@ -8,7 +8,7 @@ test("array of length 1 as parameter", () => {
   expect(maxSpanMain([1])).toBe(1);
 });
 
-test("there is no second number to calc span", () => {
+test("there is no second number to calc a span", () => {
   expect(maxSpanMain([1, 2, 3, 4, 5, 6])).toBe(1);
 });
 
