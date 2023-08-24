@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "npx tsc && node ./src/javascript/index.js",
-    "maxSpan": "npx tsc && node ./src/javascript/maxSpan.js"
+    "compile": "npx tsc",
+    "maxSpan": "npm run compile && node ./src/javascript/maxSpan.js"
   },
   "keywords": [],
   "author": "",
