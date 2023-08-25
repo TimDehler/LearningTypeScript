@@ -34,6 +34,6 @@ const swtichNumbersByIndexes = (
   return numsArray;
 };
 
-console.log(fix45([1, 4, 1, 5, 5, 4, 1]));
+//console.log(fix45([1, 4, 1, 5, 5, 4, 1]));
 
 export default fix45;

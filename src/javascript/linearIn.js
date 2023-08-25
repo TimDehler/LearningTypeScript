@@ -1,0 +1,14 @@
+"use strict";
+const linearIn = (outer, inner) => {
+    for (let i = 0; i < inner.length; i++) {
+        if (outer.find((el) => el === inner[i])) {
+            console.log("continue");
+            continue;
+        }
+        else {
+            return false;
+        }
+    }
+    return true;
+};
+console.log(linearIn([1, 2, 3, 4], [2, 4]));

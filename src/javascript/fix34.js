@@ -25,5 +25,5 @@ const swtichNumbersByIndexes = (index1, index2, numsArray) => {
     numsArray[index2] = value1;
     return numsArray;
 };
-console.log(fix34([1, 3, 1, 4, 4, 3, 1]));
+//console.log(fix34([1, 3, 1, 4, 4, 3, 1]));
 exports.default = fix34;

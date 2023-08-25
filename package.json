@@ -8,7 +8,9 @@
     "compile": "npx tsc",
     "maxSpan": "npm run compile && node ./src/javascript/maxSpan.js",
     "fix34": "npm run compile && node ./src/javascript/fix34.js",
-    "fix45": "npm run compile && node ./src/javascript/fix45.js"
+    "fix45": "npm run compile && node ./src/javascript/fix45.js",
+    "canBalance": "npm run compile && node ./src/javascript/canBalance.js",
+    "linearIn": "npm run compile && node ./src/javascript/linearIn.js"
   },
   "keywords": [],
   "author": "",
