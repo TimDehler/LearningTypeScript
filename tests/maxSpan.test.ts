@@ -17,7 +17,7 @@ test("there is one number to create a span to", () => {
 });
 
 test("there are multiple numbers which can create a span", () => {
-  expect(maxSpanMain([3, 4, 3, 2, 4, 2, 4])).toBe(6);
+  expect(maxSpanMain([3, 4, 3, 2, 1, 2, 4])).toBe(6);
 });
 
 test("there are multiple numbers that can create a span and multiple of the same value", () => {

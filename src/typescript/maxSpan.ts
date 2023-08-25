@@ -5,10 +5,9 @@ const maxSpanMain = (arr: number[]): number => {
 const executeLogic = (arr: number[]): number => {
   let spans: number[] = [];
 
-  while (arr.length > 0) {
-    const actual: number | undefined = arr.shift();
-    spans.push(calculateSpanForActual(actual, arr) + 1);
-  }
+  while (arr.length > 0)
+    spans.push(calculateSpanForActual(arr.shift(), arr) + 1);
+
   return Math.max(...spans);
 };
 
@@ -17,15 +16,11 @@ const calculateSpanForActual = (
   arr: number[]
 ): number => {
   let maxSpanForActual: number = 0;
-  let savedSpan: number = 0;
 
   for (let i: number = 0; i < arr.length; i++) {
-    if (arr[i] === actual) {
-      savedSpan = i + 1;
-      if (maxSpanForActual < savedSpan) maxSpanForActual = savedSpan;
-    }
-    savedSpan++;
+    if (arr[i] === actual) maxSpanForActual = i + 1;
   }
+
   return maxSpanForActual;
 };
 

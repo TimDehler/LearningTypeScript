@@ -27,3 +27,7 @@ test("multiple pairs of three and four | fours are all past threes", () => {
 test("multiple pairs of three and four | fours can be in front of three", () => {
   expect(fix34([1, 3, 1, 4, 4, 3, 1])).toEqual([1, 3, 4, 1, 1, 3, 4]);
 });
+
+test("has ordered pair", () => {
+  expect(fix34([1, 3, 4, 1, 3, 2, 4])).toEqual([1, 3, 4, 1, 3, 4, 2]);
+});
