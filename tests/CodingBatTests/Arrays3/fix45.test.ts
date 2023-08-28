@@ -1,4 +1,4 @@
-import fix45 from "../src/typescript/fix45";
+import fix45 from "../../../src/typescript/CodingBat/Arrays3/fix45";
 44;
 test("empty array as param", () => {
   expect(fix45([])).toEqual([]);

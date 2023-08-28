@@ -1,4 +1,4 @@
-import canBalance from "../src/typescript/canBalance";
+import canBalance from "../../../src/typescript/CodingBat/Arrays3/canBalance";
 
 // Rule: The Array cant be empty
 

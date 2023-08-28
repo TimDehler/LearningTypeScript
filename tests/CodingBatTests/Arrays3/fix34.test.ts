@@ -1,4 +1,4 @@
-import fix34 from "../src/typescript/fix34";
+import fix34 from "../../../src/typescript/CodingBat/Arrays3/fix34";
 
 /**
  *  The array contains the same number of 3's and 4's,

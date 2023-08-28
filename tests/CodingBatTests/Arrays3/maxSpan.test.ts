@@ -1,4 +1,4 @@
-import maxSpanMain from "../src/typescript/maxSpan";
+import maxSpanMain from "../../../src/typescript/CodingBat/Arrays3/maxSpan";
 
 test("empty array as parameter", () => {
   expect(maxSpanMain([])).toBe(0);
