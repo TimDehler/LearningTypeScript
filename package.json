@@ -6,11 +6,12 @@
   "scripts": {
     "test": "jest",
     "compile": "npx tsc",
-    "maxSpan": "npm run compile && node ./src/javascript/maxSpan.js",
-    "fix34": "npm run compile && node ./src/javascript/fix34.js",
-    "fix45": "npm run compile && node ./src/javascript/fix45.js",
-    "canBalance": "npm run compile && node ./src/javascript/canBalance.js",
-    "linearIn": "npm run compile && node ./src/javascript/linearIn.js"
+    "maxSpan": "npm run compile && node ./src/javascript/CodingBat/Arrays3/maxSpan.js",
+    "fix34": "npm run compile && node ./src/javascript/CodingBat/Arrays3/fix34.js",
+    "fix45": "npm run compile && node ./src/javascript/CodingBat/Arrays3/fix45.js",
+    "canBalance": "npm run compile && node ./src/javascript/CodingBat/Arrays3/canBalance.js",
+    "linearIn": "npm run compile && node ./src/javascript/CodingBat/Arrays3/linearIn.js",
+    "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js"
   },
   "keywords": [],
   "author": "",

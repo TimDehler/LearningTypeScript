@@ -1,4 +1,4 @@
-import linearIn from "../src/typescript/linearIn";
+import linearIn from "../src/typescript/CodingBat/Arrays3/linearIn";
 
 test("no doubles, should return true", () => {
   expect(linearIn([1, 2, 4, 6], [2, 4])).toBeTruthy();
