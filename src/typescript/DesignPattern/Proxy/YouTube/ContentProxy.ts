@@ -9,7 +9,6 @@ class ContentFilterProxy implements YouTubeService {
   uploadVideo = (video: Video) => {
     if (video.data.includes("poop")) {
       console.log("CONTENT FILTER ALERT");
-
       return -1;
     }
     return this.youtubeService.uploadVideo(video);

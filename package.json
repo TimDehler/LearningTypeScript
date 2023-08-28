@@ -11,7 +11,8 @@
     "fix45": "npm run compile && node ./src/javascript/CodingBat/Arrays3/fix45.js",
     "canBalance": "npm run compile && node ./src/javascript/CodingBat/Arrays3/canBalance.js",
     "linearIn": "npm run compile && node ./src/javascript/CodingBat/Arrays3/linearIn.js",
-    "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js"
+    "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
+    "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js"
   },
   "keywords": [],
   "author": "",
