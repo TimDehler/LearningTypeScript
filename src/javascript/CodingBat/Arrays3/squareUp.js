@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const squareUp = (n) => {
     let retArr = [];
     for (let i = 0; i < n; i++) {
@@ -20,11 +21,9 @@ const createNthPattern = (iter, numCount) => {
 };
 const reverseArray = (pattern) => {
     let reversedArray = [];
-    for (let i = pattern.length - 1; i >= 0; i--) {
+    for (let i = pattern.length - 1; i >= 0; i--)
         reversedArray.push(pattern[i]);
-        if (pattern[i] === undefined)
-            console.log(i);
-    }
     return reversedArray;
 };
-console.log(`Square up: ${squareUp(4)}`);
+//console.log(`Square up: ${squareUp(4)}`);
+exports.default = squareUp;

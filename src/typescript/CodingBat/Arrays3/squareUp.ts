@@ -28,6 +28,6 @@ const reverseArray = (pattern: number[]): number[] => {
   return reversedArray;
 };
 
-console.log(`Square up: ${squareUp(4)}`);
+//console.log(`Square up: ${squareUp(4)}`);
 
 export default squareUp;
