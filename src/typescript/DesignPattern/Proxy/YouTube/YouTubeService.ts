@@ -8,13 +8,12 @@ interface YouTubeService {
   watchVideo: Function;
 }
 
-const getInstanceOfYoutubeService = (): YouTubeService => {
-  return new ContentFilterProxy();
-};
-
 class YouTubeServiceImpl implements YouTubeService {
-  contentDataBase: Array<UploadedVideo> = [];
-  constructor() {}
+  private contentDataBase: Array<UploadedVideo> = [];
+
+  public static getInstanceOfYoutubeService = (): YouTubeService => {
+    return new ContentFilterProxy();
+  };
 
   uploadVideo = (video: Video): number => {
     const uploadVideo: UploadedVideo = new UploadedVideo(
@@ -55,4 +54,4 @@ class YouTubeServiceImpl implements YouTubeService {
   };
 }
 
-export { YouTubeService, YouTubeServiceImpl, getInstanceOfYoutubeService };
+export { YouTubeService, YouTubeServiceImpl };

@@ -1,10 +1,8 @@
 import { Video } from "../YouTube/Video";
-import {
-  YouTubeService,
-  getInstanceOfYoutubeService,
-} from "../YouTube/YouTubeService";
+import { YouTubeService, YouTubeServiceImpl } from "../YouTube/YouTubeService";
 
-const youtube: YouTubeService = getInstanceOfYoutubeService();
+const youtube: YouTubeService =
+  YouTubeServiceImpl.getInstanceOfYoutubeService();
 
 youtube.uploadVideo(new Video("funny animals", new Date()));
 youtube.uploadVideo(new Video("funny dennis", new Date()));

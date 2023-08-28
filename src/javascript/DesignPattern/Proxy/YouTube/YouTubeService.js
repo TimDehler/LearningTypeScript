@@ -3,13 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getInstanceOfYoutubeService = exports.YouTubeServiceImpl = void 0;
+exports.YouTubeServiceImpl = void 0;
 const ContentProxy_1 = __importDefault(require("./ContentProxy"));
 const UploadedVideo_1 = __importDefault(require("./UploadedVideo"));
-const getInstanceOfYoutubeService = () => {
-    return new ContentProxy_1.default();
-};
-exports.getInstanceOfYoutubeService = getInstanceOfYoutubeService;
 class YouTubeServiceImpl {
     constructor() {
         this.contentDataBase = [];
@@ -44,3 +40,6 @@ class YouTubeServiceImpl {
     }
 }
 exports.YouTubeServiceImpl = YouTubeServiceImpl;
+YouTubeServiceImpl.getInstanceOfYoutubeService = () => {
+    return new ContentProxy_1.default();
+};
