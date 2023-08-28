@@ -6,4 +6,6 @@ const linearIn = (outer: number[], inner: number[]): boolean => {
   return true;
 };
 
-console.log(linearIn([1, 2, 3, 4], [2, 4]));
+//console.log(linearIn([1, 2, 3, 4], [2, 4]));
+
+export default linearIn;
