@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const countClumps = (nums) => {
     let clumpsCounter = 0;
     for (let i = 0; i < nums.length; i++) {
@@ -11,4 +12,5 @@ const countClumps = (nums) => {
     }
     return clumpsCounter;
 };
-console.log(countClumps([1, 2, 2, 3, 4, 4]));
+//console.log(countClumps([1, 2, 2, 3, 4, 4]));
+exports.default = countClumps;
