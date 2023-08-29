@@ -13,6 +13,7 @@
     "linearIn": "npm run compile && node ./src/javascript/CodingBat/Arrays3/linearIn.js",
     "squareUp": "npm run compile && node ./src/javascript/CodingBat/Arrays3/squareUp.js",
     "seriesUp": "npm run compile && node ./src/javascript/CodingBat/Arrays3/seriesUp.js",
+    "maxMirror": "npm run compile && node ./src/javascript/CodingBat/Arrays3/maxMirror.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
     "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js"
   },

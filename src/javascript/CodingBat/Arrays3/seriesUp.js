@@ -1,11 +1,9 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const seriesUp = (n) => {
     let x = [];
-    for (let i = 1; i <= n; i++) {
-        console.log("iteration", i);
-        console.log(`Create: ${createSequenze(i)}`);
+    for (let i = 1; i <= n; i++)
         x = [...x, ...createSequenze(i)];
-    }
     return x;
 };
 const createSequenze = (max) => {
@@ -15,4 +13,4 @@ const createSequenze = (max) => {
     }
     return arr;
 };
-console.log(seriesUp(3));
+exports.default = seriesUp;
