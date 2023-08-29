@@ -27,13 +27,10 @@ const createSequenzes = (nums) => {
             done = true;
         }
     }
-    sequenzes.forEach((sequenz) => {
-        console.log(sequenz);
-    });
     return sequenzes;
 };
 const searchForReoccurringSequenz = (nums, sequenzToSearchFor) => {
     return nums.join(",").includes(sequenzToSearchFor.reverse().join(","));
 };
-console.log(maxMirror([1, 2, 1, 20, 21, 1, 2, 1, 2, 23, 24, 2, 1, 2, 1, 25]));
+//console.log(maxMirror([1, 2, 1, 20, 21, 1, 2, 1, 2, 23, 24, 2, 1, 2, 1, 25]));
 exports.default = maxMirror;

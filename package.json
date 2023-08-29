@@ -15,7 +15,8 @@
     "seriesUp": "npm run compile && node ./src/javascript/CodingBat/Arrays3/seriesUp.js",
     "maxMirror": "npm run compile && node ./src/javascript/CodingBat/Arrays3/maxMirror.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
-    "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js"
+    "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js",
+    "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"
   },
   "keywords": [],
   "author": "",
