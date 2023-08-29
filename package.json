@@ -17,6 +17,8 @@
     "countClumps": "npm run compile && node ./src/javascript/CodingBat/Arrays3/countClumps.js",
     "doubling": "npm run compile && node ./src/javascript/CodingBat/Functional1/doubling.js",
     "square": "npm run compile && node ./src/javascript/CodingBat/Functional1/square.js",
+    "addStar": "npm run compile && node ./src/javascript/CodingBat/Functional1/addStar.js",
+    "copies3": "npm run compile && node ./src/javascript/CodingBat/Functional1/copies3.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
     "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js",
     "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"
