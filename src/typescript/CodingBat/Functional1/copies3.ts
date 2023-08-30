@@ -3,5 +3,4 @@ const copies3 = (strings: Array<string>): Array<string> => {
 };
 
 //console.log(copies3(["a", "bb", "ccc"]));
-
 export default copies3;

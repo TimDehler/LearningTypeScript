@@ -19,6 +19,9 @@
     "square": "npm run compile && node ./src/javascript/CodingBat/Functional1/square.js",
     "addStar": "npm run compile && node ./src/javascript/CodingBat/Functional1/addStar.js",
     "copies3": "npm run compile && node ./src/javascript/CodingBat/Functional1/copies3.js",
+    "moreY": "npm run compile && node ./src/javascript/CodingBat/Functional1/moreY.js",
+    "math1": "npm run compile && node ./src/javascript/CodingBat/Functional1/math1.js",
+    "rightDigit": "npm run compile && node ./src/javascript/CodingBat/Functional1/rightDigit.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
     "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js",
     "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"
