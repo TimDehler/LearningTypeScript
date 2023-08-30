@@ -1,7 +1,7 @@
 {
   "name": "learningtypescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a repo to learn typescript for myself. All files can be compiled and run using scripts.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -27,7 +27,7 @@
     "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tim Dehler",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.4",
