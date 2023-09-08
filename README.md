@@ -6,9 +6,15 @@ This repository is for me learnig coding in typescript. The configuration and ex
 
 This can only be used if you activate pre-push .git-hook locally with content of:
 
-```shell
+```bash
 #!/bin/sh <br>
 npm run test || exit 1
+```
+
+to run push.sh just run:
+
+```bash
+./push.sh "your commit message here"
 ```
 
 ## .evn
