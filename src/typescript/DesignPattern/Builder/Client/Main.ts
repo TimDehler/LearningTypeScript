@@ -35,3 +35,6 @@ const director: Director = new Director();
 
 const myGamingPC: Computer = director.constructGamingPc();
 console.log(myGamingPC.toString());
+
+console.log(myPC.computerType);
+console.log(myGamingPC.computerType);

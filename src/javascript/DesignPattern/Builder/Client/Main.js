@@ -22,3 +22,5 @@ console.log(myPC.toString());
 const director = new Director_1.default();
 const myGamingPC = director.constructGamingPc();
 console.log(myGamingPC.toString());
+console.log(myPC.computerType);
+console.log(myGamingPC.computerType);
