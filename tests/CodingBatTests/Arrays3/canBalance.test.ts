@@ -2,9 +2,8 @@ import canBalance from "../../../src/typescript/CodingBat/Arrays3/canBalance";
 
 // Rule: The Array cant be empty
 
-// should be truthy testing script
 test("canBalance", () => {
-  expect(canBalance([1, 2, 2, 1])).toBeFalsy();
+  expect(canBalance([1, 2, 2, 1])).toBeTruthy();
 });
 
 test("can not Balance", () => {
