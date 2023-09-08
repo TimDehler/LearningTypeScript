@@ -4,6 +4,7 @@
   "description": "This is a repo to learn typescript for myself. All files can be compiled and run using scripts.",
   "main": "index.js",
   "scripts": {
+    "toGithub": "npm run test && git add . && git commit -m && git push",
     "test": "jest",
     "compile": "npx tsc",
     "maxSpan": "npm run compile && node ./src/javascript/CodingBat/Arrays3/maxSpan.js",
@@ -22,6 +23,8 @@
     "moreY": "npm run compile && node ./src/javascript/CodingBat/Functional1/moreY.js",
     "math1": "npm run compile && node ./src/javascript/CodingBat/Functional1/math1.js",
     "rightDigit": "npm run compile && node ./src/javascript/CodingBat/Functional1/rightDigit.js",
+    "noX": "npm run compile && node ./src/javascript/CodingBat/Functional1/noX.js",
+    "noNeg": "npm run compile && node ./src/javascript/CodingBat/Functional2/noNeg.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
     "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js",
     "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"

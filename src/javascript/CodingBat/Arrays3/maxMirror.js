@@ -10,20 +10,6 @@ const maxMirror = (nums) => {
     });
     return maxLengthSequenz;
 };
-const mariosSequenzes = (nums) => {
-    return [
-        ...createSubSequenz([...nums]),
-        ...createSubSequenz([...nums.reverse()]),
-    ];
-};
-const createSubSequenz = (nums) => {
-    let sequenzes = [];
-    while (nums.length !== 0) {
-        sequenzes.push([...nums]);
-        nums.shift();
-    }
-    return sequenzes;
-};
 const createSequenzes = (nums) => {
     let sequenzes = [];
     let done = false;
@@ -48,5 +34,4 @@ const searchForReoccurringSequenz = (nums, sequenzToSearchFor) => {
     return nums.join(",").includes(sequenzToSearchFor.reverse().join(","));
 };
 //console.log(maxMirror([1, 2, 1, 20, 21, 1, 2, 1, 2, 23, 24, 2, 1, 2, 1, 25]));
-mariosSequenzes([1, 2, 3, 4, 5, 6]).forEach((sequenz) => console.log(sequenz));
 exports.default = maxMirror;
