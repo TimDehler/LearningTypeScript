@@ -4,7 +4,6 @@
   "description": "This is a repo to learn typescript for myself. All files can be compiled and run using scripts.",
   "main": "index.js",
   "scripts": {
-    "toGithub": "npm run test && git add . && git commit -m && git push",
     "test": "jest",
     "compile": "npx tsc",
     "maxSpan": "npm run compile && node ./src/javascript/CodingBat/Arrays3/maxSpan.js",
