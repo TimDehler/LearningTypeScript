@@ -26,7 +26,8 @@
     "noNeg": "npm run compile && node ./src/javascript/CodingBat/Functional2/noNeg.js",
     "proxy": "npm run compile && node ./src/javascript/DesignPattern/Proxy/Client/ProxyMain.js",
     "singleton": "npm run compile && node ./src/javascript/DesignPattern/Singleton/Client/SingletonMain.js",
-    "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js"
+    "state": "npm run compile && node ./src/javascript/DesignPattern/State/Client/Main.js",
+    "builder": "npm run compile && node ./src/javascript/DesignPattern/Builder/Client/Main.js"
   },
   "keywords": [],
   "author": "Tim Dehler",
