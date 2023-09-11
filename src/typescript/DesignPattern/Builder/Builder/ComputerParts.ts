@@ -45,7 +45,7 @@ export enum memorySizes {
   "500GB" = "500 Gigabyte",
 }
 
-const computerParts = {
+export const computerParts = {
   computertypes: computertypes,
   mainboards: mainboards,
   cpus: cpus,
@@ -55,5 +55,3 @@ const computerParts = {
   memoryTypes: memoryTypes,
   memorySizes: memorySizes,
 };
-
-export default computerParts;

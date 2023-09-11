@@ -1,4 +1,4 @@
-import computerParts, {
+import {
   computertypes,
   cpus,
   gpus,
@@ -33,8 +33,6 @@ class ComputerBuilderImpl implements ComputerBuilder {
   private memoryType!: memoryTypes;
   private memorySize!: memorySizes;
   private hasBattery!: boolean;
-
-  private computerParts = computerParts;
 
   public setComputerType(computertype: computertypes): ComputerBuilder {
     this.computerType = computertype;
@@ -85,10 +83,6 @@ class ComputerBuilderImpl implements ComputerBuilder {
       this.memorySize,
       this.hasBattery
     );
-  }
-
-  public getComputerParts() {
-    return this.computerParts;
   }
 }
 
