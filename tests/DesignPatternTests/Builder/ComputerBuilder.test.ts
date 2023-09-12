@@ -49,3 +49,15 @@ test("testing default pcs from director", () => {
   expect(gamingPC.memorySize).toEqual(memorySizes["1TB"]);
   expect(gamingPC.hasBattery).toEqual(false);
 });
+
+/* test("not all fields are set on the builder", () => {
+  const testPC: Computer = new ComputerBuilderImpl()
+    .setComputerType(computertypes.CUSTOM)
+    .setCpu(cpus.INTEL)
+    .setMainboard(mainboards.GIGABYTE)
+    .setRam(rams["16GB"])
+    .setHasBattery(false)
+    .build();
+
+
+}); */
