@@ -37,8 +37,7 @@ test("testing custom builder", () => {
 });
 
 test("testing default pcs from director", () => {
-  //const gamingPC = new Director().constructGamingPc();
-  const gamingPC = "das ist doof";
+  const gamingPC = new Director().constructGamingPc();
 
   expect(gamingPC.computerType).toEqual(computertypes.GAMINGPC);
   expect(gamingPC.cpu).toEqual(cpus.AMD);
@@ -51,7 +50,7 @@ test("testing default pcs from director", () => {
   expect(gamingPC.hasBattery).toEqual(false);
 });
 
-/* test("not all fields are set on the builder", () => {
+test("not all fields are set on the builder", () => {
   const testPC: Computer = new ComputerBuilderImpl()
     .setComputerType(computertypes.CUSTOM)
     .setCpu(cpus.INTEL)
@@ -60,5 +59,13 @@ test("testing default pcs from director", () => {
     .setHasBattery(false)
     .build();
 
-
-}); */
+  expect(testPC.computerType).toEqual(computertypes.CUSTOM);
+  expect(testPC.cpu).toEqual(cpus.INTEL);
+  expect(testPC.mainboard).toEqual(mainboards.GIGABYTE);
+  expect(testPC.ram).toEqual(rams["16GB"]);
+  expect(testPC.gpu).toBeUndefined();
+  expect(testPC.powersupply).toBeUndefined();
+  expect(testPC.memoryType).toBeUndefined();
+  expect(testPC.memorySize).toBeUndefined();
+  expect(testPC.hasBattery).toEqual(false);
+});
