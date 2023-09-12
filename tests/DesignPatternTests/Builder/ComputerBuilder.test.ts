@@ -37,7 +37,8 @@ test("testing custom builder", () => {
 });
 
 test("testing default pcs from director", () => {
-  const gamingPC = new Director().constructGamingPc();
+  //const gamingPC = new Director().constructGamingPc();
+  const gamingPC = "das ist doof";
 
   expect(gamingPC.computerType).toEqual(computertypes.GAMINGPC);
   expect(gamingPC.cpu).toEqual(cpus.AMD);
